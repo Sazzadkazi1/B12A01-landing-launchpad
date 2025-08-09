@@ -1,0 +1,169 @@
+
+main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+
+.btn-primary,
+.logo,
+.logo-1,
+.logo-2 {
+  font-family: "Inter", sans-serif;
+}
+
+img  {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #4E47FF;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+
+/* header style */
+.header {
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    padding: 0px 50px 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+} 
+
+.action-left {
+    display: flex;
+    flex-direction: column; 
+    align-items: left;     
+    gap: 8px;              
+    margin-top: -10px;
+}
+
+.action-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 0px;
+}
+
+.users-data {
+    padding: 20px;
+    margin: 50px;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+}
+
+.h3title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.users-data-stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+    padding-bottom: 20px;
+}
+
+.star-icons {
+    display: flex;
+}
+
+.star-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.user-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+} 
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} 
+.user-card {
+    background-color: #FFF8F3;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.users-feedback {
+    padding: 50px 20px;
+    margin: 50px;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-name {
+    margin-bottom: 2px; 
+} 
+
+.complement-date {
+    margin-top: 2px; 
+}
+
+.h6subtitle {
+    font-size: 16px;
+    color: #181818;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.focus {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.logo-1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #4E47FF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
