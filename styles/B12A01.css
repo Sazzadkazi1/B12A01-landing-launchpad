@@ -34,11 +34,17 @@ img  {
 
 
 /* header style */
-.header {
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    padding: 0px 50px 0px;
+.header{
+  
+  background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+
 }
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+    color: #181818;
+}
+
 
 .navbar {
     display: flex;
@@ -58,6 +64,10 @@ img  {
     gap: 20px;
     padding: 50px;
 } 
+.action-subtitle{
+    font-size: 24px;
+    color: #252432;
+}
 
 .action-left {
     display: flex;
