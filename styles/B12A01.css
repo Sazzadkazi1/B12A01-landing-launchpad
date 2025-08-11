@@ -130,6 +130,8 @@ img  {
     padding: 50px 20px;
     margin: 50px;
 }
+
+
 .avatar {
     width: 50px;
     height: 50px;
@@ -184,11 +186,11 @@ footer {
     width: 40%;
 }
 
-footer input[type="text"], footer input[type="email"], footer textarea {
+footer input[type="text"],footer input[type="password"] ,footer input[type="email"], footer textarea {
     display: block;
     width: 70%;
     height: 64px;
-    background-color: white;
+    background-color: #FFFFFF;
     font-size: 16px;
     color: #181818;
     border: none;
@@ -196,6 +198,8 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     padding: 0 20px;
     margin-bottom: 20px;
 }
+
+
 
 input::placeholder,
 textarea::placeholder {
