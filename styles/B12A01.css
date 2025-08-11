@@ -164,6 +164,51 @@ img  {
     text-align: center;
     padding: 20px 0;
 }
+footer {
+    background-color: #F8F8F8;
+    padding: 50px 20px;
+    text-align: center;
+    gap: 100px;
+}
 
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.footer-right {
+    width: 60%;
+} 
+.footer-left {
+    width: 40%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    display: block;
+    width: 70%;
+    height: 64px;
+    background-color: white;
+    font-size: 16px;
+    color: #181818;
+    border: none;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: lightsteelblue;   
+}
+
+footer label {
+    font-size: 16px;
+    color: #181818;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}
 
 
